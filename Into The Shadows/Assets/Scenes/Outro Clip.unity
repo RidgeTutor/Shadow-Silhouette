@@ -273,7 +273,7 @@ GameObject:
   - component: {fileID: 362678952}
   - component: {fileID: 362678955}
   m_Layer: 5
-  m_Name: Continue
+  m_Name: MainMenu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -344,7 +344,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 362678955}
-        m_TargetAssemblyTypeName: LoadNextScene, Assembly-CSharp
+        m_TargetAssemblyTypeName: LoadNextSceneExit, Assembly-CSharp
         m_MethodName: LoadScene
         m_Mode: 1
         m_Arguments:
@@ -402,7 +402,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 362678950}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 927d147769c6c5740843e8c6c3a0ac2c, type: 3}
+  m_Script: {fileID: 11500000, guid: 76e483bcc92bb4c4fa706cf01c00f79c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &622412681
@@ -462,7 +462,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Continue
+  m_text: Main Menu
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0e141b3397d234c8685509c5d77ebcf1, type: 2}
   m_sharedMaterial: {fileID: 21962088495682642, guid: 0e141b3397d234c8685509c5d77ebcf1,
@@ -828,7 +828,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 969766238}
-        m_TargetAssemblyTypeName: SceneReplay, Assembly-CSharp
+        m_TargetAssemblyTypeName: SceneReplayExit, Assembly-CSharp
         m_MethodName: LoadScene
         m_Mode: 1
         m_Arguments:
@@ -886,7 +886,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 969766233}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3e9c28dabab02ba4485906bb569ea738, type: 3}
+  m_Script: {fileID: 11500000, guid: 693140381907649429a11cf663f2c6bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1021367580
