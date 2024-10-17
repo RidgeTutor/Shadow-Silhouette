@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/SampleScene.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 097d239ceab003a41a403e982d95282f
+  - enabled: 1
+    path: Assets/Scenes/Intro Clip.unity
+    guid: 20818547468bff249bd6eab5c6fddfa2
+  - enabled: 1
+    path: Assets/Scenes/Level 1.unity
+    guid: 07efb5700dd036d4797f8941642cb09e
+  - enabled: 1
+    path: Assets/Scenes/Maze.unity
+    guid: a07698ca9c793064b8eeff6fba36d842
+  - enabled: 1
+    path: Assets/Scenes/Level 2.unity
+    guid: 50e17634d635783459e33be2c1be5737
+  - enabled: 1
+    path: Assets/Scenes/Outro Clip.unity
+    guid: fca14599210c3d64c9bba701583b92cf
+  m_configObjects: {}
