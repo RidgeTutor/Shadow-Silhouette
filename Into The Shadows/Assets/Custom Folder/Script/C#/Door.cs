@@ -24,7 +24,6 @@ public class Door : MonoBehaviour
         float distance = Vector2.Distance(player.transform.position, transform.position);
         if(!locked && distance < 0.5f)
         {
-            //Input allocated scene name here
             SceneManager.LoadScene("Outro Clip");
         }
     }
